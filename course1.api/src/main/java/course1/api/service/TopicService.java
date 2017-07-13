@@ -14,7 +14,7 @@ import course1.api.pojo.Topics;
 public class TopicService {
 	
 	private List<Topics> topic=new ArrayList<Topics>
-	(Arrays.asList(new Topics("1","Spring","SpringBoot"),new Topics("2","Spring","SpringCore"),new Topics("3","Spring","SpringMVC")));
+	(Arrays.asList(new Topics("1","Spring","SpringBoot"),new Topics("2","Spring","SpringCore"),new Topics("3","Spring","SpringMVC"),new Topics("4","Spring","SpringCloud")));
 	
 	public List<Topics> getAllTopic(){
 		return topic;
