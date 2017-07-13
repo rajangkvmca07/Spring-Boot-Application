@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MyApiApp {
 
 	public static void main(String[] args) {
+		System.out.println("-------Added print Statement-----");
 		SpringApplication.run(MyApiApp.class, args);
 
 	}
